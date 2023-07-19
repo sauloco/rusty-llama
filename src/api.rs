@@ -1,6 +1,5 @@
 use cfg_if::cfg_if;
 use leptos::*;
-use leptos::html::data;
 use crate::model::conversation::{Conversation};
 
 #[server(Converse "/api")]
